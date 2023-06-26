@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body{
+  
+    height: 100vh;
+    outline:none;
+  }
+  
+  .container{
+    height: 100%;
+    background-color: #000;
+    color:  #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #title{
+    letter-spacing: .5rem;
+    text-transform: capitalize;
+    padding: 2rem 0rem;
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+  
+  #description{
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 1rem 0;
+    margin-bottom: 5rem;
+    letter-spacing: .2rem;
+  }
+  
+  #result{
+    border: none;
+    border-bottom: .2rem solid #FFF;
+    background-color: #000;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 2rem;
+    width: 100%;
+    outline: none;
+    padding: 1rem .5rem;
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  
+  .third-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .5rem;
+  }
+  
+  .btn{
+    background-color: #414141;
+    border-radius: 5rem;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  .equal-button {
+    background-color: #FE9D12;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  
+  .btn-info{
+    background-color: #FE9D12;
+  }
+  
+  .btn-infoX{
+    background-color: #B7B7B7;
+  }
+  
